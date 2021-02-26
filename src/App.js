@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Nav from "./Components/Nav";
+import Card from "./Components/Card";
+import User from "./Components/User";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Card />
+      <User />
     </div>
   );
 }
