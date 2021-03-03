@@ -6,7 +6,7 @@ const Jumbotron = () => {
       <div class="container">
         <h1 class="display-4">Employee Directory</h1>
         <p class="lead">
-          A simple app that allows users to view and find contact information of
+          A simple app that allows users to view and find information of
           employees.
         </p>
       </div>
