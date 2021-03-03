@@ -14,6 +14,7 @@ const User = () => {
       })
       .then((data) => {
         setUser(data.results);
+        console.log(data);
         console.log(Array.isArray(data.results));
       });
   }, []);

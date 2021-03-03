@@ -8,7 +8,7 @@ const Card = ({ user }) => {
         <div className="col-md-12">
           <div className="card">
             <img
-              src={user.picture.thumbnail}
+              src={user.picture.large}
               style={styles.cardStyles}
               alt="user pic"
             />
@@ -19,9 +19,9 @@ const Card = ({ user }) => {
             </div>
 
             <ul className="list-group">
-              <li className="list-group-item">An item</li>
-              <li className="list-group-item">A second item</li>
-              <li className="list-group-item">A third item</li>
+              <li className="list-group-item">{user.email}</li>
+              <li className="list-group-item">{user.location.city}</li>
+              <li className="list-group-item">{user.gender}</li>
             </ul>
           </div>
         </div>
