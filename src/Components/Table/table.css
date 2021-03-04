@@ -1,0 +1,16 @@
+.img {
+  margin: 0 auto;
+
+  display: block;
+}
+
+.table {
+  justify-content: center;
+  margin-left: 50px;
+}
+
+#box {
+  justify-content: center;
+  margin-right: 50px;
+  min-width: fit-content;
+}

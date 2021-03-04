@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import API from "../../utils/API";
 import Card from "../Card/Card";
+import Table from "../Table/Table";
 
 const User = () => {
   const [users, setUser] = useState([]);
@@ -20,7 +21,7 @@ const User = () => {
   }, []);
 
   const userArray = users.map((employee, index) => {
-    return <Card key={index} user={employee} />;
+    return <Table key={index} user={employee} />;
   });
 
   return <div className="home"> {users && userArray}</div>;
