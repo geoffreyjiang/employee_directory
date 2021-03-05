@@ -1,16 +1,8 @@
-.img {
-  margin: 0 auto;
-
-  display: block;
-}
-
 .table {
   justify-content: center;
-  margin-left: 50px;
-}
-
-#box {
-  justify-content: center;
-  margin-right: 50px;
-  min-width: fit-content;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 100%;
+  margin-bottom: 5px;
+  padding: 0px;
 }

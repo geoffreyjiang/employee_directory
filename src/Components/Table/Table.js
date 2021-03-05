@@ -3,26 +3,27 @@ import "../Table/table.css";
 
 const Table = ({ user }) => {
   return (
-    <table class="table table-bordered table-dark">
-      <thead>
-        <tr>
-          <th scope="col" id="box"></th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Located</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row" align="center">
-            {" "}
-            <img src={user.picture.medium} alt="user pic" />
-          </th>
-          <td>{user.name.first}</td>
-          <td>{user.name.last}</td>
-          <td>{user.location.country}</td>
-        </tr>
-      </tbody>
+    <table class="table table-dark col-md-11">
+      <tr>
+        <th scope="col">
+          <img src={user.picture.medium} alt="user pic" />
+        </th>
+        <th scope="col" width="20%">
+          {user.name.first}
+        </th>
+        <th scope="col" width="20%">
+          {user.name.last}
+        </th>
+        <th scope="col" width="20%">
+          {user.email}
+        </th>
+        <th scope="col" width="20%">
+          {user.location.country}
+        </th>
+        <th scope="col" width="20%">
+          {user.dob.age}
+        </th>
+      </tr>
     </table>
   );
 };
