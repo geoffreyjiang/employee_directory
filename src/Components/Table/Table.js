@@ -3,7 +3,7 @@ import "../Table/table.css";
 
 const Table = ({ user }) => {
   return (
-    <table class="table table-dark col-md-11">
+    <table class="table table-dark table-responsive-sm">
       <tr>
         <th scope="col">
           <img src={user.picture.medium} alt="user pic" />

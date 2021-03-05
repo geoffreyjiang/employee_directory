@@ -1,8 +1,7 @@
 .table {
-  justify-content: center;
-  width: 100%;
-  margin-left: 5%;
-  margin-right: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5px;
   padding: 0px;
 }
